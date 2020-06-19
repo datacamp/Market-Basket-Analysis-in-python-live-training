@@ -1,4 +1,4 @@
-# **Live training session name**<br/>by **Instructor**
+# **Market Basket Analysis**<br/>by **Isaiah Hull**
 
 Live training sessions are designed to mimic the flow of how a real data scientist would address a problem or a task. As such, a session needs to have some “narrative” where learners are achieving stated learning objectives in the form of a real-life data science task or project. For example, a data visualization live session could be around analyzing a dataset and creating a report with a specific business objective in mind _(ex: analyzing and visualizing churn)_, a data cleaning live session could be about preparing a dataset for analysis etc ... 
 
