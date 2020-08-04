@@ -12,49 +12,37 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 
 ### A. What problem(s) will students learn how to solve? (minimum of 5 problems)
 
-> _Here's an example from the Python for Spreadsheeets Users live session_
->
-> - Key considerations to take in when transitioning from spreadsheets to Python.
-> - The Data Scientist mindset and keys to success in transitioning to Python.
-> - How to import `.xlsx` and `.csv` files into Python using `pandas`.
-> - How to filter a DataFrame using `pandas`.
-> - How to create new columns out of your DataFrame for more interesting features.
-> - Perform exploratory analysis of a DataFrame in `pandas`.
-> - How to clean a DataFrame using `pandas` to make it ready for analysis.
-> - Apply common spreadsheets operations such as pivot tables and vlookups in Python using `pandas`.
-> - Create simple, interesting visualizations using `matplotlib`.
-
+- Prepare data for use in Market Basket Analysis.
+- Identify patterns in consumer decision-making with `mlxtend`.
+- Use metrics to evaluate the properties of patterns.
+- Construct association rules that provide concrete recommendations for businesses.
+- Perform pruning to identify useful rules.
+- Visualize patterns and rules using `seaborn` and `matplotlib`.
 
 ### B. What technologies, packages, or functions will students use? Please be exhaustive.
 
-> - pandas
-> - matplotlib
-> - seaborn
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `mlxtend`
 
 ### C. What terms or jargon will you define?
 
-_Whether during your opening and closing talk or your live training, you might have to define some terms and jargon to walk students through a problem you’re solving. Intuitive explanations using analogies are encouraged._
-
-> _Here's an example from the [Python for Spreadsheeets Users live session](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)._
-> 
-> - Packages: Packages are pieces of software we can import to Python. Similar to how we download, install Excel on MacOs, we import pandas on Python. (You can find it at minute 6:30)
+- Transaction: A set of items purchased together.
+- Itemset: A collection of unique items.
+- Association rule: an "if-then" statement of association between two itemsets. For instance, "if coffee then milk" is an association rule that implies that customers who purchase coffee are also likely to purchase milk.
+- Metric: The numerical measure of the intensity of an association between itemsets.
+- Pruning: The removal of itemsets or rules that perform poorly according to a metric.
 
 ### D. What mistakes or misconceptions do you expect? 
 
-_To help minimize the amount of Q&As and make your live training re-usable, list out some mistakes and misconceptions you think students might encounter along the way._
-
-> _Here's an example from the [Data Visualization in Python live session](https://www.datacamp.com/resources/webinars/data-visualization-in-python)_
-> 
-> - Anatomy of a matplotlib figure: When calling a matplotlib plot, a figure, axes and plot is being created behind the background. (You can find it at minute 11)
-> - As long as you do understand how plots work behind the scenes, you don't need to memorize syntax to customize your plot. 
+- I expect students to be confused about the definitions of metrics and how to interpret them.
+- Students are likely to be confused about how the Apriori algorithm works and what it achieves.
 
 ### E. What datasets will you use? 
 
-Live training sessions are designed to walk students through something closer to a real-life data science workflow. Accordingly, the dataset needs to accommodate that user experience. 
-As a rule of thumb, your dataset should always answer yes to the following question: 
-> Is the dataset/problem I’m working on, something an industry data scientist/analyst could work on? 
-
-Check our [datasets to avoid](https://instructor-support.datacamp.com/en/articles/2360699-datasets-to-avoid) list. 
+- Brazilian E-Commerce Public Dataset by Olist: https://www.kaggle.com/olistbr/brazilian-ecommerce
 
 ## Step 2: Who is this session for?
 
