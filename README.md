@@ -48,8 +48,8 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 
 Terms like "beginner" and "expert" mean different things to different people, so we use personas to help instructors clarify a live training's audience. When designing a specific live training, instructors should explain how it will or won't help these people, and what extra skills or prerequisite knowledge they are assuming their students have above and beyond what's included in the persona.
 
-- [ ] Please select the roles and industries that align with your live training. 
-- [ ] Include an explanation describing your reasoning and any other relevant information. 
+- [x] Please select the roles and industries that align with your live training. 
+- [x] Include an explanation describing your reasoning and any other relevant information. 
 
 ### What roles would this live training be suitable for?
 
@@ -57,29 +57,31 @@ Terms like "beginner" and "expert" mean different things to different people, so
 
 - [ ] Data Consumer
 - [ ] Leader 
-- [ ] Data Analyst
+- [x] Data Analyst
 - [ ] Citizen Data Scientist
-- [ ] Data Scientist
+- [x] Data Scientist
 - [ ] Data Engineer
 - [ ] Database Administrator
-- [ ] Statistician
-- [ ] Machine Learning Scientist
+- [x] Statistician
+- [x] Machine Learning Scientist
 - [ ] Programmer
 - [ ] Other (please describe)
 
+Reasoning: Market Basket Analysis has limited overlap with popular methods in machine learning and data science (e.g. deep learning, gradient boosting, clustering, etc.). As such, learning the basics of Market Basket Analysis will open up an entirely new toolset for many data analysts, data scientists, statisticians, and machine learning scientists.
+
 ### What industries would this apply to?
 
-*List one or more industries that the content would be appropriate for.*
-
+- Industries: Retail, e-commerce, streaming services.
+- Reasoning: Market basket analysis can be used to analyze associations between itemsets in any domain. While it is typically applied in retail settings, it can also be used in other applications, such as building recommender systems for e-commerce sites or streaming services.
 
 ### What level of expertise should learners have before beginning the live training?
 
 *List three or more examples of skills that you expect learners to have before beginning the live training*
 
-> - Can draw common plot types (scatter, bar, histogram) using matplotlib and interpret them
-> - Can run a linear regression, use it to make predictions, and interpret the coefficients.
-> - Can calculate grouped summary statistics using SELECT queries with GROUP BY clauses.
-
+- Can define and manipulate an `array` in `numpy`.
+- Can define a `DataFrame` in `pandas`, create columns, and apply basic methods, such as `.mean()` and `.sum()`.
+- Can use `.apply()` and `lambda` functions to transform columns in a `DataFrame`.
+- Can generate basic plots in `matplotlib`.
 
 ## Step 3: Prerequisites
 
