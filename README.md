@@ -89,6 +89,7 @@ List any prerequisite courses you think your live training could use from. This 
 
 [Data Manipulation with Pandas](
 https://www.datacamp.com/courses/data-manipulation-with-pandas)
+
 [Market Basket Analysis in Python](https://learn.datacamp.com/courses/market-basket-analysis-in-python)
 
 ## Step 4: Session Outline
