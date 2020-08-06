@@ -106,7 +106,7 @@ A live training session usually begins with an introductory presentation, follow
 	- Set expectations about Q&A.
 
 **Data Preparation**
-- Discuss Brazilian e-commerce dataset
+- Discuss Brazilian e-commerce dataset.
 - Import data using `pd.read_csv()`.
 - Define transaction and itemset.
 - Identify transactions in dataset using `pandas`
@@ -115,7 +115,7 @@ and `numpy` methods.
 - Q&A
 
 **Association Rules, Metrics, and Pruning**
-- Onehot encode transactions using 
+- One-hot encode transactions using 
 `TransactionEncoder` from `mlxtend`.
 - Use `.mean()` to compute support for 
 individual items.
