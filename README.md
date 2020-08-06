@@ -87,6 +87,9 @@ Reasoning: Market Basket Analysis has limited overlap with popular methods in ma
 
 List any prerequisite courses you think your live training could use from. This could be the live session’s companion course or a course you think students should take before the session. Prerequisites act as a guiding principle for your session and will set the topic framework, but you do not have to limit yourself in the live session to the syntax used in the prerequisite courses.
 
+[Data Manipulation with Pandas](
+https://www.datacamp.com/courses/data-manipulation-with-pandas)
+[Market Basket Analysis in Python](https://learn.datacamp.com/courses/market-basket-analysis-in-python)
 
 ## Step 4: Session Outline
 
