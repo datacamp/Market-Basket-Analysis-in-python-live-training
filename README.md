@@ -97,39 +97,49 @@ https://www.datacamp.com/courses/data-manipulation-with-pandas)
 A live training session usually begins with an introductory presentation, followed by the live training itself, and an ending presentation. Your live session is expected to be around 2h30m-3h long (including Q&A) with a hard-limit at 3h30m. You can check out our live training content guidelines [here](_LINK_). 
 
 
-> _Example from [Python for Spreadsheet Users](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)_
->
-> ### Introduction Slides 
-> - Introduction to the webinar and instructor (led by DataCamp TA)
-> - Introduction to the topics
->   - Discuss need to become data fluent
->   - Define data fluency
->   - Discuss how learning Python fits into that and go over session outline
->   - Set expectations about Q&A
->
-> ### Live Training
-> #### Exploratory Data Analysis
-> - Import data and print header of DataFrame `pd.read_excel()`, `.head()`
-> - Glimpse at the data to
->   - Get column types using `.dtypes`
->   - Use `.describe()`, `.info()`
-> - **Q&A** 
-> #### Data Cleaning and making it ready for analysis
-> - Convert date columns to datetime `pd.to_datetime()`
-> - Change column names
-> - Extract year, month from datetime `.strftime()`
-> - Drop an irrelevant column `.drop()`
-> - Fill missing values with `.fillna()`
-> #### Creating a report
-> - First report question: What is our overall sales performance this year? `.groupby()`, `.plt.plot()`
-> - Second report question: What is our overall sales performance this year? `.merge()`, `.groupby()`, `plt.plot()`
-> - Third report question: What is our overall sales performance this year? `.merge()`, `.groupby()`, `plt.plot()`
-> - **Q&A**
->
-> ### Ending slides
-> - Recap of what we learned
-> - The data science mindset
-> - Call to action and course recommendations
+**Introduction Slides**
+- Introduction to the webinar and instructor (led by DataCamp TA).
+- Summary of webinar topics.
+	- Define Market Basket Analysis.
+	- Discuss applications.
+	- Introduce packages used in webinar.
+	- Set expectations about Q&A.
+
+**Data Preparation**
+- Discuss Brazilian e-commerce dataset
+- Import data using `pd.read_csv()`.
+- Define transaction and itemset.
+- Identify transactions in dataset using `pandas`
+and `numpy` methods.
+- Convert transactions to list of lists.
+- Q&A
+
+**Association Rules, Metrics, and Pruning**
+- Onehot encode transactions using 
+`TransactionEncoder` from `mlxtend`.
+- Use `.mean()` to compute support for 
+individual items.
+- Use `.mean()` to compute support for
+itemsets.
+- Compute confidence using `lambda` function.
+- Visualize results in `matplotlib` and `seaborn`.
+- Q&A
+
+**The Apriori Algorithm**
+- Introduce `apriori` and `association_rules`
+from `mlxtend`.
+- Use `min_support`, `max_len`, and `min_threshold` to
+perform pruning over itemsets and association rules.
+- Identify useful association rules in e-commerce dataset 
+through the use of pruning.
+- Visualize results in `matplotlib` and `seaborn`.
+- Q&A
+
+**Ending Slides**
+- Summarize webinar topics.
+- Reference DataCamp course on MBA.
+	- Explain additional topics covered.
+- Provide additional supporting material and appendices.
 
 ## Authoring your session
 
